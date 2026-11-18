@@ -1,0 +1,12 @@
+{
+  "name": "session-meter",
+  "description": "Session meter: one line above the prompt with how long Claude has waited on you, how long it has worked, and the session's total time.",
+  "owner": { "name": "Scott Blevins", "url": "https://github.com/tmedia-csb" },
+  "plugins": [
+    {
+      "name": "session-meter",
+      "source": "./",
+      "description": "One line above the prompt: Been waiting, Total waiting on you, Claude thinking and Total time, with Stop and Start again."
+    }
+  ]
+}

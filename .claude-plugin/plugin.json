@@ -2,5 +2,6 @@
   "name": "session-meter",
   "version": "0.1.0",
   "description": "One line above the prompt: Been waiting, Total waiting on you, Claude thinking and Total time, with Stop and Start again.",
+  "author": { "name": "Scott Blevins", "url": "https://github.com/tmedia-csb" },
   "types": "./types/index.d.ts"
 }

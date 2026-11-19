@@ -21,7 +21,7 @@ A session the meter hasn't counted yet shows `Not started` with a **Start** butt
 
 ## Install
 
-In the Claude desktop app: click **+** next to the prompt box, then **Plugins**, then **Add marketplace**, and enter `tmedia-csb/session-meter`. Then add the plugin.
+In the Claude desktop app: click **+** next to the prompt box, then **Plugins**, then **Manage plugins**. Click **Add**, then **Add marketplace**, then **Add from a repository**. Enter `tmedia-csb/session-meter`, click **Sync**, then install **Session meter**. Adding a marketplace needs Git on your computer.
 
 In a Claude Code session in the terminal, at the prompt (answer `y` to add the marketplace, then choose the user scope):
 
@@ -35,7 +35,7 @@ From a shell:
 claude plugin install session-meter --marketplace tmedia-csb/session-meter
 ```
 
-It runs in the session you install it from right away, and in every session after.
+Start a new session after installing, and the line appears above the prompt there and in every session after.
 
 ## Notes
 
